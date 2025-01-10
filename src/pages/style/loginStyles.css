@@ -1,0 +1,60 @@
+.Login {
+  font-family: sans-serif;
+  text-align: left;
+  border: 3px solid black;
+  width: 45%;
+}
+
+input[type="username"],
+input[type="password"] {
+  width: 70%;
+  padding: 12px 0px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  border-bottom: 1px solid black;
+  box-sizing: border-box;
+}
+
+/* Set button style*/
+button {
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 1px solid black;
+  cursor: pointer;
+  width: 100%;
+  
+}
+
+/* Add button hover effect */
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.input {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.submission {
+  padding-top: 20px;
+}
+
+h1 {
+  padding-left: 16px;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+h2 {
+  padding-bottom: 40px;
+}
